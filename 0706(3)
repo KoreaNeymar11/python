@@ -1,0 +1,15 @@
+# "Hello World"를 출력하는 코드입니다
+print("#Hello World")
+print(10+10)
+
+# 하나 출력하기
+print(10)
+print("안녕하세요")
+print("Hello Python Programming")
+print()
+# 여러 개 출력하기
+print(10,20,30)
+print("안녕하세요","저의","이름은","최우영입니다")
+print()
+# 줄바꿈하기
+print()
