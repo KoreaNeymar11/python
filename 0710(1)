@@ -1,0 +1,18 @@
+# input함수
+input("입력해주세여:")
+input(">>>")
+print(input("입력해주세요:"))
+
+a=input(">>>")
+print(a)
+print(type(a))
+
+a=input("숫자1:")
+b=input("숫자2:")
+
+a=int(a)
+b=float(b)
+c=str(a)
+
+print(a+b)
+print(c,type(c))
