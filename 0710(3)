@@ -1,0 +1,14 @@
+a=52
+b=273
+print("{}".format(10))
+print("{}년{}월{}일".format(2022,7,10))
+print("{}+{}={}".format(a,b,a+b))
+
+print()("{}".format(10,20,30))
+# 오류
+print("{} {}".format(10))
+
+
+
+"10 20 30 40".split("")
+"10-20-30-40".split("-")
