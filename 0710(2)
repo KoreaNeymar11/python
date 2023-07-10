@@ -1,0 +1,21 @@
+# 입력:inch 단위를 입력
+a=input("inch  단위 숫자:")
+
+# 처리:inch->cm변환하는 처리
+a=a*2.54
+
+# 출력:cm단위를 출력
+print("cm단위로는",a,"입니다")
+
+# 입력:반지름 입력
+r=input("반지름")
+r=float(r)
+
+# 처리:둘레와 넓이를 구한다.
+pi=3.14
+peri=2*pi*r
+area=pi*(r**2)
+
+# 출력:둘레와 넓이를 출력한다
+print("둘레:",peri)
+print("넓이",area)
