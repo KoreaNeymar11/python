@@ -1,0 +1,57 @@
+a=10
+
+# +연산자:피연산자를 바꾸지 않음
+# 비파괴적이다
+a=10
+a-10
+a*10
+a/10
+a%10
+a//10
+a**10
+
+# =연산자:피연산자를 바꿈
+# 파괴적이다
+a=a+10
+a=20
+a=30
+
+a="안 녕 하 세 요"
+a.split
+print(a)
+
+a="hELLO pYTHON"
+a.upper()
+# a.lower()소문자로 변경
+print(a)
+
+a="  안녕하세요    "
+a=a.strip()
+print(a)
+print(a.isalpha())
+
+a="abcdabcd"
+# 왼쪽부터 탐색:1번째
+print(a.find("b"))
+# 오른쪽부터 탐색:5번쨰
+print(a.rfind("b"))
+
+print("안녕" in "안녕하세요")
+
+# 정수
+print("{:d}".format(52))
+
+# 특정 칸만큼 출력
+print("{:05d}".format(52))
+print("{:010d}".format(52))
+
+# 부호
+print("{:5d}".format(52))
+print("{:5d}".format(-52))
+print("{:5d}".format(52))
+print("{:5d}".format(-52))
+
+print("{:+5d}".format(52))
+print("{:+5d}".format(-52))
+print("{:=+5d}".format(52))
+print("{:=+5d}".format(-52))
