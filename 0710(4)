@@ -1,0 +1,34 @@
+a=52
+b=273
+
+print(f"{a}+{b}={a+b}")
+
+print(f"""{a}+{b}={a+b}
+{a}-{b}={a-b}
+{a}*{b}={a*b}
+{a}/{b}={a/b}""")
+
+# 입력:반지름 입력
+r=input("반지름: ")
+r=float(r)
+# 처리:부피+겉넓이
+pi=3.14
+vol=(4/3)*pi*(r**3)
+area=4*pi*(r**2)
+
+# 출력
+print(f"부피:{vol}")
+print(f"겉넓이:{area}")
+
+# 입력:밑변+높이
+a=input("밑변:")
+a=float(a)
+
+b=input("높이:")
+b=float(b)
+
+# 처리:빗변
+c=((a**2)+(b**2))**(1/2)
+
+# 출력
+print(f"=빗변:{c}")
