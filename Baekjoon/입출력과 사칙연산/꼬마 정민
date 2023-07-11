@@ -1,0 +1,6 @@
+a=input()
+a=a.split()
+b=a[0]
+c=a[1]
+d=a[2]
+print(int(b)+int(c)+int(d))
