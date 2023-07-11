@@ -1,0 +1,12 @@
+a=input()
+a=a.split()
+b=a[0]
+c=a[1]
+d=a[2]
+b=int(b)
+c=int(c)
+d=int(d)
+print((b+c)%d)
+print(((b%d) + (c%d))%d)
+print((b*c)%d)
+print(((b%d) * (c%d))%d)
