@@ -1,0 +1,46 @@
+if 조건:
+    문장
+    문장
+    문장
+
+# if조건문
+# 조건이 True일 때만 들여스기 안쪽의 문장을 실행
+if True:
+    print("True입니다")
+
+if False:
+    print("False입니다")
+# 사용자가 입력하 숫자가 양수 음수 0인지 판별하는 프로그램
+ 
+raw_input=int(input("정수를 입력해주세요"))
+
+if raw_input>0:
+    print("양수입니다")
+
+if raw_input==0:
+    print("0입니다")
+
+
+from pytz import timezone
+from datetime import datetime
+today = datetime.now(timezone('Asia/Seoul'))
+
+if today.hour<12:
+    print("오전입니다")
+
+if today.hour>=12:
+    print("오후입니다")
+
+# 계절을 구분하는 프로그램
+m=today.month
+if 3<=m<=5:
+    print("봄입니다")
+
+if 6<=m<=8:
+    print("여름입니다")
+
+if 9<=m<=11:
+    print("가을입니다")
+
+if (11<=m<=12) or (m==1):
+    print("봄입니다")
