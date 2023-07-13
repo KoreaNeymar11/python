@@ -1,0 +1,29 @@
+True #참
+False#거짓
+
+# 비교 연산자
+10==20
+10!=20
+10<20
+10<=20
+10>20
+10>=20
+=#할당 연산자
+
+# 논리 연산자
+# 단항 not
+not True
+not False
+
+# 이항 and
+# 둘 다 True 일 떄 결과 True
+True and True
+True and False
+False and True
+False and False
+
+# 이항 or
+True or True
+True or False
+False or True
+False or False
