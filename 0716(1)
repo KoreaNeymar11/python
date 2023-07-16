@@ -1,0 +1,47 @@
+score=float(input("학점을 입력해주세요:"))
+if score==4.5:
+    print("신")
+elif 4.2<=score:
+    print("교수님의 사랑")
+elif 3.5<=score:
+    print("현 체제의 수호자")
+elif 2.8<=score:
+    print("일반인")
+elif 2.3<=score:
+    print("일탈을 꿈꾸는 소시민")
+elif 1.75<=score:
+    print("오락문화의 선구자")
+elif 1.0<=score:
+    print("불가촉천민")
+elif 0.5<=score:
+    print("자벌레")
+elif 0<=score:
+    print("플랑크톤")
+
+str=input("태어난 해를 입력해주세요")
+bir=int(str)
+
+if bir%12==0:
+    print("원숭이띠입니다")
+if bir%12==1:
+    print("닭띠입니다")
+if bir%12==2:
+    print("개띠입니다")
+if bir%12==3:
+    print("돼지띠입니다")
+if bir%12==4:
+    print("쥐띠입니다")
+if bir%12==5:
+    print("소띠입니다")
+if bir%12==6:
+    print("범띠입니다")
+if bir%12==7:
+    print("토끼띠입니다")
+if bir%12==8:
+    print("용띠입니다")
+if bir%12==9:
+    print("뱀띠입니다")
+if bir%12==10:
+    print("말띠입니다")
+if bir%12==11:
+    print("양띠입니다")
